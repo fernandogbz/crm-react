@@ -5,7 +5,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/', // this first path is the main page
+    element: <h1>Home</h1> // this is what's gonna be shown in the page
   }
 ]) // This function takes an array in which you define your different router through an object.
 
