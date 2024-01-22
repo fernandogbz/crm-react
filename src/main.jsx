@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-
+    path: '/',
   }
 ]) // This function takes an array in which you define your different router through an object.
 
