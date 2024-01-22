@@ -7,6 +7,10 @@ const router = createBrowserRouter([
   {
     path: '/', // this first path is the main page
     element: <h1>Home</h1> // this is what's gonna be shown in the page
+  },
+  {
+    path:'/about-us',
+    element: <h1>About us</h1>
   }
 ]) // This function takes an array in which you define your different router through an object.
 
