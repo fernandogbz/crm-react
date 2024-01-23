@@ -1,8 +1,9 @@
-import React from 'react'
 
 function Layout() {
   return (
-    <div>Layout</div>
+    <div>
+        <h1>CRM - React</h1>
+    </div>
   )
 }
 
