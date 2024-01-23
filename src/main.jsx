@@ -11,6 +11,10 @@ const router = createBrowserRouter([
     element: <Layout/>, // this is what's gonna be shown in the page
     children: [
       {
+        index: true, // This is the one that's gonna be rendered first
+        element: <h1>Home</h1>
+      },
+      {
         path:'/clients/new',
         element: <NewClient/>
       }
