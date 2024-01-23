@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout'
+import NewClient from './pages/NewClient'
 
 const router = createBrowserRouter([
   {
@@ -11,7 +12,7 @@ const router = createBrowserRouter([
     children: [
       {
         path:'/clients/new',
-        element: <h1>About us</h1>
+        element: <NewClient/>
       }
     ] // This children is going to be an array of objects and everything that's inside this children. It's going to have the layout above applied, it's going to inherit this design and what I pass to it as an element, that is what that is going to be injected into the outlet component in Layout
   },
