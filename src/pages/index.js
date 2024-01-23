@@ -1,8 +1,8 @@
 
-function index() {
+function Index() {
   return (
-    <div>index</div>
+    <div>Clients</div>
   )
 }
 
-export default index
+export default Index
