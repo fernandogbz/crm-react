@@ -12,8 +12,12 @@ function Layout() {
         <h2 className='text-4xl font-black text-center text-white'>CRM - Clients</h2>
         <nav className='mt-10'>
           
-          <Link className={`${location.pathname === '/' ? 'hover:text-blue-300' : 'text-white'}text-2xl block mt-2 hover:text-blue-300`} to='/'>Clients</Link>
-          <Link className={`${location.pathname === '/clients/new' ? 'hover:text-blue-300' : 'text-white'}text-2xl block mt-2 hover:text-blue-300`} to='/clients/new'>New Client</Link>
+          <Link 
+            className={`${location.pathname === '/' ? 'hover:text-blue-300' : 'text-white'}text-2xl block mt-2 hover:text-blue-300`} 
+            to='/'>Clients</Link>
+          <Link 
+            className={`${location.pathname === '/clients/new' ? 'hover:text-blue-300' : 'text-white'}text-2xl block mt-2 hover:text-blue-300`} 
+            to='/clients/new'>New Client</Link>
         </nav>
       </aside>
 
