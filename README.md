@@ -1,3 +1,3 @@
 Technologies:
-<hr>
+<br>
 Link:
