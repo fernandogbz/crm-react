@@ -1,8 +1,10 @@
 <h2>Technologies:</h2>
   Tailwind
   <br>
-  React
   
+
+React
+<br>
 <br>
 <b>Link:</b>
 
