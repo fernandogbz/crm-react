@@ -1,6 +1,6 @@
 <h2>Technologies:</h2>
-  Tailwind
-  <br>
+Tailwind
+<br>
 React
 <br>
 <br>
