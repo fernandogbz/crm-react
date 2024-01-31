@@ -1,3 +1,7 @@
+export function loader(){
+  
+}
+
 
 function Index() {
   return (
