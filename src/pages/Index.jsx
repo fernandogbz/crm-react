@@ -1,7 +1,9 @@
 
 function Index() {
   return (
-    <div>Clients</div>
+    <>
+      <h1>Clients</h1>
+    </>
   )
 }
 
