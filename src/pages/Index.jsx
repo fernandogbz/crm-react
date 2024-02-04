@@ -24,6 +24,13 @@ export function loader(){
       email: "josue@correo.com",
       empresa: 'Linkedin'
   },
+  {
+      id: 4,
+      nombre: 'Miguel',
+      telefono: 319381983,
+      email: "miguel@correo.com",
+      empresa: 'X'
+  },
 ];
 
   return "From Loader"
