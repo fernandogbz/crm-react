@@ -1,3 +1,5 @@
+import { useLoaderData } from "react-router-dom"
+
 export function loader(){
 
   return "From Loader"
