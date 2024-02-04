@@ -2,6 +2,12 @@ import { useLoaderData } from "react-router-dom"
 
 export function loader(){
 
+  const clients = [
+    {
+
+    },
+];
+
   return "From Loader"
 
 } // This loader is very similar to a useEffect. It's not exactly the same, but it's very similar and it's a function that will be executed when the component load and is ideal for loading a state or for querying some API and getting some result that you want to display in a component.
@@ -10,6 +16,7 @@ export function loader(){
 function Index() {
 
   const data = useLoaderData();
+  console.log(data)
 
   return (
     <>
