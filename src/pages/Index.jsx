@@ -3,9 +3,13 @@ import { useLoaderData } from "react-router-dom"
 export function loader(){
 
   const clients = [
-    {
-
-    },
+    {        
+      id: 1,
+      nombre: 'Juan',
+      telefono: 102013313,
+      email: "juan@correo.com",
+      empresa: 'Google'
+  },
 ];
 
   return "From Loader"
