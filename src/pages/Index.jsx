@@ -31,6 +31,13 @@ export function loader(){
       email: "miguel@correo.com",
       empresa: 'X'
   },
+  {
+      id: 5,
+      nombre: 'Pedro',
+      telefono: 1398198938,
+      email: "pedro@correo.com",
+      empresa: 'Tesla'
+    },
 ];
 
   return "From Loader"
