@@ -10,6 +10,13 @@ export function loader(){
       email: "juan@correo.com",
       empresa: 'Google'
   },
+  {
+      id: 2,
+      nombre: 'Karen',
+      telefono: 138198313,
+      email: "karen@correo.com",
+      empresa: 'Facebook'
+  },
 ];
 
   return "From Loader"
