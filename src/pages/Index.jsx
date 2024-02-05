@@ -56,7 +56,7 @@ function Index() {
       <p className="mt-3">Manage your Clients</p>
 
       {clients.length ? (
-        <table></table>
+        <table className="w-full bg-white shadow mt-5 table-auto"></table>
       ) : (
         <p className="text-center mt-10">There are not clients yet</p>
       )}
