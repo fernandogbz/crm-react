@@ -63,7 +63,15 @@ function Index() {
               <th className="p-2">Contact</th>
               <th className="p-2">Actions</th>
             </tr>
-            
+            <tbody>
+              {clients.map(client => (
+                <tr>
+                  <td>
+                    {client.name}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
           </thead>
         </table>
       ) : (
