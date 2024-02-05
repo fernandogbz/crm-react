@@ -68,11 +68,7 @@ function Index() {
 
           <tbody>
             {clients.map(client => (
-              <tr>
-                <td className="p-6">
-                  {client.name}
-                </td>
-              </tr>
+              <Client />
             ))}
           </tbody>
         </table>
