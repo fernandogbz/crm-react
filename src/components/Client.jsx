@@ -1,6 +1,5 @@
-import React from 'react'
 
-function Client() {
+function Client({client}) {
   return (
     <div>Client</div>
   )
