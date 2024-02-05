@@ -57,7 +57,11 @@ function Index() {
 
       {clients.length ? (
         <table className="w-full bg-white shadow mt-5 table-auto">
-          <thead className="bg-blue-800 text text-white"></thead>
+          <thead className="bg-blue-800 text text-white">
+            <tr>
+              <th className="p-2">Clients</th>
+            </tr>
+          </thead>
         </table>
       ) : (
         <p className="text-center mt-10">There are not clients yet</p>
