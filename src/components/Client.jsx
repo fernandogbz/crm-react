@@ -1,5 +1,6 @@
 function Client({client}) {
 
+    const {id, name, phone, email, company} = client;
 
   return (
     <tr>
