@@ -13,6 +13,10 @@ function Client({client}) {
                 <p className="text-gray-600"> <span className="text-gray-800 uppercase font-bold">Email: </span>{email}</p>
                 <p className="text-gray-600"> <span className="text-gray-800 uppercase font-bold">Phone: </span>{phone}</p>
             </td>
+
+            <td className="p-6 flex">
+                <button type="button"></button>
+            </td>
         </tr>
     )
 }
