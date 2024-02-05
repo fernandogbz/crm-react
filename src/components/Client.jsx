@@ -1,7 +1,12 @@
-
 function Client({client}) {
+
+
   return (
-    <div>Client</div>
+    <tr>
+        <td className="p-6">
+        {client.name}
+        </td>
+    </tr>
   )
 }
 
