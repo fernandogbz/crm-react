@@ -58,7 +58,7 @@ function Index() {
       {clients.length ? (
         <table></table>
       ) : (
-        <p>There are not clients yet</p>
+        <p className="text-center mt-10">There are not clients yet</p>
       )}
     </>
   )
