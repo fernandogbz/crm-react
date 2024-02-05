@@ -60,6 +60,8 @@ function Index() {
           <thead className="bg-blue-800 text text-white">
             <tr>
               <th className="p-2">Clients</th>
+              <th className="p-2">Contact</th>
+              <th className="p-2">Actions</th>
             </tr>
           </thead>
         </table>
