@@ -5,38 +5,38 @@ export function loader(){
   const clients = [
     {        
       id: 1,
-      nombre: 'Juan',
-      telefono: 102013313,
+      name: 'Juan',
+      phone: 102013313,
       email: "juan@correo.com",
-      empresa: 'Google'
+      company: 'Google'
   },
   {
       id: 2,
-      nombre: 'Karen',
-      telefono: 138198313,
+      name: 'Karen',
+      phone: 138198313,
       email: "karen@correo.com",
-      empresa: 'Facebook'
+      company: 'Facebook'
   },
   {
       id: 3,
-      nombre: 'Josue',
-      telefono: 31983913,
+      name: 'Josue',
+      phone: 31983913,
       email: "josue@correo.com",
-      empresa: 'Linkedin'
+      company: 'Linkedin'
   },
   {
       id: 4,
-      nombre: 'Miguel',
-      telefono: 319381983,
+      name: 'Miguel',
+      phone: 319381983,
       email: "miguel@correo.com",
-      empresa: 'X'
+      company: 'X'
   },
   {
       id: 5,
-      nombre: 'Pedro',
-      telefono: 1398198938,
+      name: 'Pedro',
+      phone: 1398198938,
       email: "pedro@correo.com",
-      empresa: 'Tesla'
+      company: 'Tesla'
     },
 ];
 
@@ -63,6 +63,7 @@ function Index() {
               <th className="p-2">Contact</th>
               <th className="p-2">Actions</th>
             </tr>
+            
           </thead>
         </table>
       ) : (
