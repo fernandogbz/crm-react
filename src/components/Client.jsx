@@ -5,7 +5,8 @@ function Client({client}) {
     return (
         <tr className="border-b">
             <td className="p-6">
-                {client.name}
+                <p className="text-2xl text-gray-800">{client.name}</p>
+                <p>{company}</p>
             </td>
         </tr>
     )
