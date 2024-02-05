@@ -70,6 +70,7 @@ function Index() {
             {clients.map(client => (
               <Client 
                 client={client}
+                key={client.id}
               />
             ))}
           </tbody>
