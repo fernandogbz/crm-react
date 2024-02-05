@@ -15,7 +15,13 @@ function Client({client}) {
             </td>
 
             <td className="p-6 flex">
-                <button type="button"></button>
+                <button 
+                    type="button"
+                    className="text-blue-600 hover:text-blue-700 uppercase font-bold text-xs"
+                >
+                    
+                        Edit
+                </button>
             </td>
         </tr>
     )
